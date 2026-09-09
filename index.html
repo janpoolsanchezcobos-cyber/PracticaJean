@@ -4,15 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-color: blue;
-        }
-    </style>
+    
 </head>
 <body>
-    <h1>jean paul</h1>
-    <h2>Diseño y programacion Web</h2>
-    <img src="../JEAN/ACCESIBILIDAD WEB E INTERNACIONALIZACION/JeanPaul-Paginaweb-LogoRojo/BIOGRAFIA/MEDIA/face.jpg">
+    <header>
+    
+        <div>
+            <h1>Biografia de Jean Paul Sanchez</h1>
+        </div>
+    
+    
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mi biografia</a></li>
+                <li><a href="#">Mis intereses</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <main>
+    
+        <section>
+    
+            <header>
+                <h2>Sobre mi</h2>
+    
+                <p>
+                    Bienvenido a mi biografia. En este espacio
+                    comparto un poco sobre mi vida, mis intereses
+                    y mi formacion.
+                </p>
+            </header>
+    
+            <article>
+    
+                <h2>Mi historia</h2>
+    
+                <p>
+                    Mi nombre es Jean Paul Sanchez. Soy natural de
+                    Iquitos y tengo dos hermanos, por lo que somos
+                    tres hermanos en mi familia.
+                </p>
+    
+                <p>
+                    Desde muy niño me gustó la lectura. Siempre me
+                    he considerado una persona respetuosa y responsable.
+                </p>
+    
+                <p>
+                    Comencé a trabajar desde los 19 años y desde
+                    entonces he aprendido a ser independiente y
+                    responsable con mis decisiones.
+                </p>
+    
+            </article>
+    
+            <article>
+    
+                <h2>Mis intereses</h2>
+    
+                <p>
+                    En mi tiempo libre me gusta escuchar musica y
+                    jugar futbol. Estas actividades me ayudan a
+                    distraerme y disfrutar de mi tiempo libre.
+                </p>
+    
+            </article>
+    
+            <article>
+    
+                <h2>Mi formacion</h2>
+    
+                <p>
+                    Hace aproximadamente dos años me mudé a Trujillo,
+                    donde comencé mis estudios en el IESTP Trujillo,
+                    en la carrera de Diseño y Programación Web.
+                </p>
+    
+                <p>
+                    Actualmente continúo desarrollando mis conocimientos
+                    en diseño y programación para prepararme
+                    profesionalmente en el área del desarrollo web.
+                </p>
+    
+            </article>
+    
+        </section>
+    
+        <aside>
+            <section class="formulario">
+    
+                <h2>Opinión sobre mi biografia</h2>
+    
+                <form>
+    
+                    <label for="nombre">Nombre:</label>
+    
+                    <input type="text" id="nombre" name="nombre" pattern="[A-Za-zÁÉÍÓÚáéíóú ]{3,30}" required
+                        title="Ingrese solo letras, entre 3 y 30 caracteres">
+    
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+    
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required>
+
+                    <label for="comentario">Comentario:</label>
+                    <input type="text" id="comentario" placeholder="Escribe tu comentario">
+
+                    <label for="califica">Califica:</label>
+                    <input type="number" id="califica" min="1" max="10" required>
+    
+                    <p>¿Te gustó mi biografia?</p>
+    
+                    <input type="radio" id="si" name="gustar" required>
+                    <label for="si">si</label>
+    
+                    <input type="radio" id="no" name="gustar">
+                    <label for="no">no</label>
+    
+    
+                    <br><br>
+    
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+    
+                </form>
+    
+            </section>
+    
+    
+        </aside>
+    
+    </main>
+    
+    <footer>
+    
+        <p>@ 2026 Jean Paul Sánchez</p>
+    
+        <p>
+            Todos los derechos reservados.
+        </p>
+    
+    </footer>
 </body>
 </html>
